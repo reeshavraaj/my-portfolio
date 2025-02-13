@@ -41,7 +41,7 @@ header {
     animation: fadeInScale 2s ease-in-out, float 3s infinite alternate ease-in-out;
 }
 
-/* Smooth fade-in and zoom effect */
+
 @keyframes fadeInScale {
     from {
         opacity: 0;
@@ -53,7 +53,6 @@ header {
     }
 }
 
-/* Floating effect (up & down) */
 @keyframes float {
     from {
         transform: translateY(0);
@@ -69,7 +68,6 @@ h1, h2 {
   animation: fadeIn 2s ease-in-out, bounce 1s infinite alternate, glow 2s infinite alternate;
 }
 
-/* Fade-in effect */
 @keyframes fadeIn {
   from {
       opacity: 0;
@@ -81,7 +79,6 @@ h1, h2 {
   }
 }
 
-/* Bounce effect */
 @keyframes bounce {
   from {
       transform: translateY(0);
@@ -98,11 +95,10 @@ h1, h2 {
 }
 
 p {
-  font-family: 'Kalam', cursive; /* Handwritten style for paragraphs */
+  font-family: 'Kalam', cursive; 
   font-weight: 400;
 }
 
-/* Academic Section Styling */
 .academic-container {
   display: flex;
   justify-content: center;
@@ -127,7 +123,7 @@ p {
   cursor: pointer;
 }
 
-/* Hover Effect: Flip-like Transition */
+
 .academic-card:hover {
   transform: scale(1.1) rotateY(10deg);
   background: linear-gradient(45deg, #ff9a9e, #fad0c4);
@@ -139,7 +135,7 @@ p {
 }
 
 
-/* Social Media Buttons */
+
 .social-buttons {
   display: flex;
   justify-content: center;
@@ -160,7 +156,7 @@ p {
   transition: all 0.3s ease-in-out;
 }
 
-/* Facebook */
+
 .facebook {
   background: #1877F2;
 }
@@ -170,7 +166,7 @@ p {
   transform: scale(1.1);
 }
 
-/* LinkedIn */
+
 .linkedin {
   background: #0077b5;
 }
@@ -180,7 +176,7 @@ p {
   transform: scale(1.1);
 }
 
-/* Instagram */
+
 .instagram {
   background: #E4405F;
 }
@@ -190,7 +186,7 @@ p {
   transform: scale(1.1);
 }
 
-/* WhatsApp */
+
 .whatsapp {
   background: #25D366;
 }
@@ -200,7 +196,7 @@ p {
   transform: scale(1.1);
 }
 
-/* GitHub */
+
 .github {
   background: #333;
 }
@@ -210,7 +206,6 @@ p {
   transform: scale(1.1);
 }
 
-/* Email */
 .email {
   background: #d001ff;
 }
@@ -220,7 +215,7 @@ p {
   transform: scale(1.1);
 }
 
-/* About Me Section */
+
 .about-me {
   display: flex;
   justify-content: center;
@@ -228,8 +223,7 @@ p {
   margin: 40px auto;
 }
 
-/* About Me Card */
-/* About Me Card with Hover Animation */
+
 .about-card {
   display: flex;
   align-items: center;
@@ -242,14 +236,14 @@ p {
   transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
 }
 
-/* Hover Effect */
+
 .about-card:hover {
   transform: scale(1.05);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.3);
 }
 
 
-/* Profile Image */
+
 .about-card img {
   width: 200px;
   height: 200px;
@@ -260,12 +254,12 @@ p {
   transition: transform 0.3s ease-in-out;
 }
 
-/* Hover Effect on Image */
+
 .about-card img:hover {
   transform: scale(1.1);
 }
 
-/* About Me Text */
+
 .about-text {
   color: white;
   font-family: 'Kalam', cursive;
