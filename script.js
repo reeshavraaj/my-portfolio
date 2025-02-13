@@ -31,9 +31,9 @@ particlesJS("particles-js", {
       },
       line_linked: {
           enable: true,  
-          distance: 100,  // Distance threshold for connections
+          distance: 100,  
           color: "#000000",
-          opacity: 0.5, // Ensures stronger visible connections
+          opacity: 0.5, 
           width: 1.5
       },
       move: { 
@@ -50,7 +50,7 @@ particlesJS("particles-js", {
       events: {
           onhover: { 
               enable: true, 
-              mode: "grab"  // FIXED: Directly connects particles to cursor!
+              mode: "grab"  
           },
           onclick: { 
               enable: true, 
@@ -59,9 +59,9 @@ particlesJS("particles-js", {
       },
       modes: {
           grab: { 
-              distance: 200, // Increased grab distance for better effect
+              distance: 200, 
               line_linked: { 
-                  opacity: 1  // Ensures particles visibly connect
+                  opacity: 1  
               }
           },
           push: { 
