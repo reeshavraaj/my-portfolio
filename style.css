@@ -8,7 +8,7 @@
 }
 
 body {
-  font-family: 'Kalam', cursive; /* Default font */
+  font-family: 'Kalam', cursive; 
     margin: 0;
     padding: 0;
     background: url('background.jpg') no-repeat center center fixed;
@@ -18,13 +18,13 @@ body {
 }
 
 header {
-  background: rgba(255, 255, 255, 0);  /* Light transparent white */
-  backdrop-filter: blur(10px);  /* Optional: Adds a blur effect */
-  color: rgb(255, 147, 76);  /* Text color */
+  background: rgba(255, 255, 255, 0);  
+  backdrop-filter: blur(10px);  
+  color: rgb(255, 147, 76);  
   text-align: center;
   padding: 20px;
   font-size: 28px;
-  border-radius: 10px; /* Adds smooth edges */
+  border-radius: 10px; 
 }
 
 
